@@ -1,78 +1,18 @@
 const gerryScottiQuotes = [
-  {
-    id: 1,
-    quote: "La vita è una ruota che gira, oggi a te, domani a me.",
-    date: "2022-03-15"
-  },
-  {
-    id: 2,
-    quote: "Un sorriso apre più porte di una chiave.",
-    date: "2021-09-10"
-  },
-  {
-    id: 3,
-    quote: "La semplicità è la vera eleganza della vita.",
-    date: "2020-06-20"
-  },
-  {
-    id: 4,
-    quote: "Nella vita non contano i soldi, ma le emozioni che riesci a regalare.",
-    date: "2019-11-05"
-  },
-  {
-    id: 5,
-    quote: "Il successo non è mai solo tuo, è sempre condiviso con chi ti sta accanto.",
-    date: "2018-02-22"
-  },
-  {
-    id: 6,
-    quote: "Ogni volta che cadi, ricorda che rialzarti è l’unico vero obiettivo.",
-    date: "2023-01-10"
-  },
-  {
-    id: 7,
-    quote: "Il cuore non sbaglia mai, basta saperlo ascoltare.",
-    date: "2021-05-16"
-  },
-  {
-    id: 8,
-    quote: "La televisione è il mio mestiere, ma la famiglia è la mia vita.",
-    date: "2020-12-08"
-  },
-  {
-    id: 9,
-    quote: "Non si può piacere a tutti, ma si può sempre essere autentici.",
-    date: "2019-07-14"
-  },
-  {
-    id: 10,
-    quote: "Ogni giorno è una nuova possibilità per essere migliori di ieri.",
-    date: "2018-10-27"
-  },
-  {
-    id: 11,
-    quote: "L’amicizia è il tesoro più prezioso, e non costa nulla.",
-    date: "2022-06-03"
-  },
-  {
-    id: 12,
-    quote: "Il vero successo è andare a dormire con il cuore in pace.",
-    date: "2021-08-19"
-  },
-  {
-    id: 13,
-    quote: "Dietro ogni sorriso c’è una storia, ed è quella che conta di più.",
-    date: "2020-03-01"
-  },
-  {
-    id: 14,
-    quote: "Un po’ di gentilezza può cambiare il mondo di una persona.",
-    date: "2019-09-09"
-  },
+  { quote: "Con tutti i programmi quotidiani che ho condotto, ho scoperto di aver lavorato il doppio dei giorni richiesti. Tecnicamente è come se facessi questo mestiere da 80 anni." },
+  { quote: "Non sono uno con la puzza sotto il naso. Sono il centrocampista ideale, come disse Maurizio Costanzo quando era direttore di Canale 5. Se sei un attaccante tutti i giornali parlano di te, ma il lavoro grosso è far girare bene il pallone." },
+  { quote: "Su 30 anni di carriera 25 li ho trascorsi alle prese con programmi in onda tutti i giorni." },
+  { quote: "Per molti anni non ho tirato su granché. A ogni contratto mi dicevano: la prossima volta ti daremo di più. Con i primi guadagni veri ho comprato una casa. Poi, con il tempo, ho regalato una casa ai miei genitori. Forse è ancora oggi la cosa più importante che ho fatto nella mia vita." },
+  { quote: "Per me la tv era solo un effetto collaterale della radio, che consideravo invece il mio primo lavoro." },
+  { quote: "Claudio Cecchetto mi ha scoperto, Fatma Ruffini mi ha \"riconfezionato\" intuendo che sarei andato bene anche per il pubblico delle famiglie." },
+  { quote: "Onestamente, mi manca solo il tempo libero. Mi sono chiesto: che senso ha se un libero professionista che teoricamente non ha vincoli non può smettere come vuole e quando vuole? Mi sono dato questa risposta: per gente come me o Carlo Conti o Paolo Bonolis che hanno fatto del nostro esserci quotidiano il nostro modo di essere, come la credenza in salotto, è faticoso dare uno stop." },
+  { quote: "La vacanza è fondamentale e per me significa \"sparire\", non avere orari, ozio, noia. Gabriella [la compagna] mi dice: \"Quando sei in vacanza ti esaurisci\". Io rispondo: \"No, sono in stand-by\". Sono un metodico anche in vacanza: mi alzo tra le 7 e le 8, ginnastica un giorno si e uno no, il rito del caffè. Alle 13 mangio e guardo \"La signora in giallo\" anche se le puntate le ho riviste cento volte e so già come va a finire." },
+  { quote: "L'esperienza più avventurosa l'ho vissuta nel 1988: con l'irruenza di un trentenne, non sapendo andare in barca a vela, l'ho guidata fino all'isola di Porquerolle. Ed è un miracolo se sono ancora vivo. Ma da allora più che mai il mare mi ha conquistato: è quel che amo in vacanza. Fare il bagno in mare, cucinare in barca. Leggere e ascoltare musica al largo. E poi la moto, la mia adorata Harley-Davidson." },
+  { quote: "Se la vivi bene la nostalgia è sana, se la vivi male fa tristezza. Io ho una sana nostalgia quando ripenso alle mie domeniche passate in viale Zara, seduto sul marciapiede. Avevo 16 anni, nel pieno dell'austerity, con i miei amici il gioco era indovinare il colore della prima macchina che passava." },
+  { quote: "Volevo fare architettura, ma mi hanno fatto fare legge perché era più facile trovare il posto fisso... Se vuoi farmi felice regalami un libro di architettura." },
+  { quote: "Mio papà era operaio, faceva il rotativista al Corriere della Sera. Faceva il turno di notte e il suo tempo libero lo passava correndo da suo padre in campagna, a Campo Rinaldo nel pavese, per aiutarlo a dare il verderame sulle viti." },
+  { quote: "Mi sento un normale lavoratore dello spettacolo. Io sono lo specialista che chiamano per risolvere certe situazioni, se c'è un incendio cercano uno che lo sappia spegnere; non mi chiamano quando c'è da dare fuoco." },
+  { quote: "Ero convinto che la radio sarebbe stata la mia vita, ci ha creduto Claudio Cecchetto che con DeeJay Television mi ha forzato, io non ero tanto convinto. In radio ero nel mio brodo, protetto, tra i miei amici; la tv era un'altra cosa, all'inizio ho sofferto." },
+  { quote: "Quando me lo ha proposto [di condurre un quiz] Fatma Ruffini [produttrice Mediaset] mi sono stranito, ero stupito e mezzo offeso: devi fare il preserale, mi disse. Pensavo: ma come? Sono reduce dalla finale del Festivalbar... Oh, aveva ragione lei e ora il preserale è diventata la mia comfort zone." }
 ];
-
-function getQuote(index) {
-  return gerryScottiQuotes[index];
-}
-
 module.exports = gerryScottiQuotes;
