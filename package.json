@@ -1,0 +1,15 @@
+{
+  "name": "recap-node-express",
+  "version": "1.0.0",
+  "description": "\"Simple library to create api of gerryscotti's random quotes\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Massimo e Simo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
