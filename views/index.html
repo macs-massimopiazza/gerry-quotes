@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerry Quotes</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="api-docs">
+    <header>
+      <h1>Gerry Quotes</h1>
+      <img src="/imgs/gerry.jpeg" alt="Gerry scotti">
+      <p class="description">REST API per frasi di Gerry Scotti. Lista degli endpoints:</p>
+      <p class="description">GaaS: Gerry as a Service</p>
+    </header>
+  
+    <main>
+      <section class="endpoint">
+        <h2>Endpoints</h2>
+        
+        <div class="endpoint-card">
+          <h3>Frase random</h3>
+          <div class="endpoint-details">
+            <span class="method">GET</span>
+            <a href="https://gerry-quotes.fly.dev/quotes/random" class="path" target="_blank" rel="noopener noreferrer">https://gerry-quotes.fly.dev/quotes/random</a>
+          </div>
+          <p>Ritorna una frase random tra le disponibili</p>
+          
+          <div class="response-example">
+            <h4>Esempio di risposta:</h4>
+            <pre><code>{
+  "id": 6,
+  "quote": "Ogni volta che cadi, ricorda che rialzarti è l’unico vero obiettivo.",
+  "date": "2023-01-10"
+}</code></pre>
+          </div>
+        </div>
+        <div class="endpoint-card">
+          <h3>Tutte le frasi</h3>
+          <div class="endpoint-details">
+            <span class="method">GET</span>
+            <a href="https://gerry-quotes.fly.dev/quotes/all" class="path" target="_blank" rel="noopener noreferrer">https://gerry-quotes.fly.dev/quotes/all</a>
+          </div>
+          <p>Ritorna tutte le frasi disponibili</p>
+          
+          <div class="response-example">
+            <h4>Esempio di risposta:</h4>
+            <pre><code>[
+  {
+    "id": 1,
+    "quote": "La vita è una ruota che gira, oggi a te, domani a me.",
+    "date": "2022-03-15"
+  },
+  {
+    "id": 2,
+    "quote": "Un sorriso apre più porte di una chiave.",
+    "date": "2021-09-10"
+  },
+  ...
+]</code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

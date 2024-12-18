@@ -1,0 +1,119 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.api-docs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #666;
+  font-size: 1.1em;
+}
+
+.endpoint {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.endpoint h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.endpoint-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f9fa;
+}
+
+.endpoint-card h3 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+}
+
+.endpoint-details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.method {
+  background-color: #28a745;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.path {
+  font-family: monospace;
+  background-color: #f1f3f5;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #2c3e50;
+}
+
+.response-example {
+  margin-top: 1.5rem;
+}
+
+.response-example h4 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+pre {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+  .api-docs {
+    padding: 1rem;
+  }
+  
+  pre {
+    font-size: 0.9em;
+  }
+}
