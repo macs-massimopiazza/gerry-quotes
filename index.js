@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const routerQuotes = require('./routers/gerryQuotes');
+const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -10,6 +11,6 @@ app.get('/', (req, res) => {
 });
 app.use('/quotes', routerQuotes);
 
-app.listen(3000, () => {
-  console.log("Listening to port 3000");
+app.listen(PORT, () => {
+  console.log(`Server live at http://localhost:${PORT}`);
 })
